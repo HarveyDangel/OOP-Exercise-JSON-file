@@ -1,0 +1,19 @@
+JSON body data:
+for Set Event Scheduler:
+{
+"Event Name":"Birthday Party",
+"Schedule":"9:00 AM-9:00 PM"
+}
+
+for Task:
+{
+"date":"12/01/2022",
+"to-do":"Buy Cake",
+"done"="false"
+}
+
+GET https://myCalendar/Event-schedule
+GET https://myCalendar/Event-schedule/{ecode}
+POST https://myCalendar/Event-schedule
+PUT https://myCalenday/Event-schedule/{ecode}
+DELETE https://myCapendar/Event-schedule/{ecode}
